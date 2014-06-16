@@ -1,7 +1,8 @@
 DESCRIPTION
 ===========
 This plugin is part of a package provided to filter data in a biblioteca in that way: 
--Coming from a page with advanced content fields (ACF),it has a field with content inside, this content has sub_fields, you can filter all the content by tipo_documento, and after that, with filterset where you can choose fecha and tema. It's static (not exportable) as you need the id of the master post /called biblioteca/, and the exact subfields tipo_documento, tema and fecha, to recreate the query system.
+
+-Coming from a page with advanced custom fields (ACF),it has a field with content inside, this content has sub_fields, you can filter all the content by tipo_documento, and after that, with filterset where you can choose fecha and tema. It's static (not exportable) as you need the id of the master post /called biblioteca/, and the exact subfields tipo_documento, tema and fecha, to recreate the query system.
 The main function of this plugin is to create query constructor endpoint, and needs a template to make it work as a frontend to this ajax endpoint.
 
 TODO:

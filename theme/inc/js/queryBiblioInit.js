@@ -26,8 +26,8 @@ function queryBiblioInit(){
 		* Returns selected data for [bibliotype]
 		*/
 		function getDataBibliotype(bibliotype){
-			year=$( "select#year[data-bibliotype='"+bibliotype+"'] option:selected").text();
-			tema=$( "select#tema[data-bibliotype='"+bibliotype+"'] option:selected" ).text();
+			year=$( "select#year[data-bibliotype='"+bibliotype+"'] option[selected='true']").text();
+			tema=$( "select#tema[data-bibliotype='"+bibliotype+"'] option[selected='true']" ).text();
 			//console.log("querying {'bibliotype':'"+bibliotype+"', 'year':'"+year+"','tema':'"+tema+"'}" )
 			/* Ajax call*/
 			$(".centro").html("cargando...")
